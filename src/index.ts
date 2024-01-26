@@ -43,5 +43,3 @@ if (buttonMinus && buttonPlus && input && progress) {
     /* Помещаем каждое новое значение в поток значений уровня громкости */
     ).subscribe(result => value$.next(result));
 }
-
-type Click = InputEvent;
